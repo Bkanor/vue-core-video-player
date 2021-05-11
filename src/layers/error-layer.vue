@@ -32,7 +32,7 @@ export default {
       console.log(e)
       this.show = true
       var errorKey = 'layers.error.' + e.code
-      this.errMsg = i18n.t(errorKey, '')
+      this.errMsg = i18n.vueCoreVideoPlayer_t(errorKey, '')
     })
   }
 }

@@ -7,7 +7,7 @@ const VueCoreVideoPlayerPlugin = {
   install (Vue, options = {}) {
     i18n.setLocale(options.lang)
     Vue.prototype.$vueCoreVideoPlayer_t = function (expression) {
-      return i18n.t(expression)
+      return i18n.vueCoreVideoPlayer_t(expression)
     }
     Vue.component('vue-core-video-player', VueCoreVideoPlayer)
   }
