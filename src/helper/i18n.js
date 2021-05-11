@@ -9,7 +9,7 @@ const globalLocale = {
 }
 
 const i18n = {
-  t: (keyStr, defaultVal) => {
+  vueCoreVideoPlayer_t: (keyStr, defaultVal) => {
     const keys = keyStr.split('.')
     const length = keys.length
     let last = i18n.locale
