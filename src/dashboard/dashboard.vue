@@ -11,7 +11,7 @@ import { isDescendant } from '../helper/dom'
 import { isMobile } from '../helper/util'
 import Progress from './progress'
 import Controls from './controls'
-import coreMixins from '../mixins'
+import coreMixins from '../mixins/mixins'
 
 const pageCoor = {
   x: null,

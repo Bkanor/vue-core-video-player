@@ -1,7 +1,7 @@
 import ee from 'event-emitter'
-import EVENTS from './constants/EVENTS'
-import * as types from './helper/type'
-import { addClass, removeClass, registerFullScreenChangeListener } from './helper/dom'
+import EVENTS from '../constants/EVENTS'
+import * as types from '../helper/type'
+import { addClass, removeClass, registerFullScreenChangeListener } from '../helper/dom'
 // import eventBus from './helper/eve'
 // import { getVideoCore } from './core'
 const _ee = ee()

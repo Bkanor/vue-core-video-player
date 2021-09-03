@@ -12,7 +12,7 @@
 <script>
 import { EVENTS } from '../constants'
 import { isMobile } from '../helper/util.js'
-import coreMixins from '../mixins'
+import coreMixins from '../mixins/mixins'
 
 export default {
   name: 'PlayPauseLayer',

@@ -11,7 +11,7 @@
 
 <script>
 import { EVENTS } from '../constants'
-import coreMixins from '../mixins'
+import coreMixins from '../mixins/mixins'
 import { getElementOffsets, isMobile } from '../helper/util'
 import { drag } from '../helper/dom'
 

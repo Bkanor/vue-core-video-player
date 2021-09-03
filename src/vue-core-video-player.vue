@@ -16,11 +16,10 @@
 <script>
 import './style/common.less'
 
-import './directives'
 import { EVENTS, DEFAULT_CONFIG } from './constants'
 import { parseMediaList } from './helper/media'
 import { initVideoCore } from './core'
-import coreMixins from './mixins'
+import coreMixins from './mixins/mixins'
 import { isMobile } from './helper/util.js'
 import Dashboard from './dashboard/dashboard.vue'
 import MobileDashboard from './dashboard/mobile-dashboard.vue'

@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import coreMixins from '../mixins'
+import coreMixins from '../mixins/mixins'
 // import { hasClass } from '../helper/dom'
 
 export default {

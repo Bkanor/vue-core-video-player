@@ -12,20 +12,21 @@
           <circle class="path" stroke="url(#grad)" stroke-width="10" fill="none" stroke-linecap="round" cx="40" cy="40" r="30"></circle>
         </svg>
       </div>
-      <p>{{$vueCoreVideoPlayer_t('layers.loading.msg')}}</p>
+      <p>{{t('layers.loading.msg')}}</p>
     </div>
   </div>
 </template>
 
 <script>
 import { EVENTS } from '../constants'
-import coreMixins from '../mixins'
+import coreMixins from '../mixins/mixins'
+import locale from '../mixins/locale'
 
 const showTimeout = 600
 
 export default {
   name: 'LoadingLayer',
-  mixins: [coreMixins],
+  mixins: [coreMixins, locale],
   data () {
     return {
       show: false
